@@ -1,0 +1,29 @@
+.f-wrapper {
+  margin: 0px 150px;
+}
+.f-container {
+  justify-content: space-between;
+}
+
+/* Left Side */
+
+.f-left {
+  gap: 1rem;
+}
+
+/* Right Side */
+.f-menu {
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .f-container {
+    justify-content: center;
+  }
+  .f-container > div {
+    align-items: center !important;
+    text-align: center;
+  }
+}
